@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'u0067857_eg_db');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'u0067857_eg');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'eventgrid_pass');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'XN^3C14I&kC@4!m?IwDz~jPc-},&5ggylq1JVk4`YZtw94@guv*3%35ewx^`B;T2');
+define('SECURE_AUTH_KEY',  'zh%w4O_W|5Nn/=.[+:wndELT@u N[G#[lyO!(qEPdzv+qUJ7O_97qDtt/?I$MS=*');
+define('LOGGED_IN_KEY',    'VcPnW` ?ub2be|61ghand=AQL?Os.gEk)D(5MHc5Sp_yuUx9%{gK0Cs@!&=|+HJ>');
+define('NONCE_KEY',        'CO}!KL/#*b-HC@CBzo?jA$ry{T@6-3[b?5$YWLE|UJSGVQ$bALO0I)R>c6oJYY7S');
+define('AUTH_SALT',        'BbsmYvl6n:$;{GbUr:[n]Jm}2`2Naq}YnHio0Rf.jyuY^(-kBOsXh^AcF;T{=kqi');
+define('SECURE_AUTH_SALT', '@Pumz{DsGNR|oM;.+wqvLE6EGD;ftO(%?P:;:`J_Fj&ncO^ijJ2lC X(8];R`&UQ');
+define('LOGGED_IN_SALT',   '!hBduq)vmeL08ARo-xmxYON|#`K8:5sGx_!j7G~?@~s5o{0=VEpRj3s;{CPz`I+(');
+define('NONCE_SALT',       'fL~N~ZvHF@c%YJRl;~[MMd*_U2$2my+QZ/F8$y;&$q^*Yt j0q)MDmIm]FD$hK9f');
 
 /**#@-*/
 
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
