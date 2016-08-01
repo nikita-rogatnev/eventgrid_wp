@@ -4,7 +4,7 @@
 		<!-- section -->
 		<section>
 
-			<h1><?php _e( 'Archives', 'html5blank' ); ?></h1>
+			<h1><?php _e( 'Archives', 'eventgrid_wp' ); ?></h1>
 
 			<?php get_template_part('loop'); ?>
 
@@ -13,7 +13,5 @@
 		</section>
 		<!-- /section -->
 	</main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

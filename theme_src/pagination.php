@@ -1,5 +1,5 @@
 <!-- pagination -->
 <div class="pagination">
-	<?php html5wp_pagination(); ?>
+	<?php eventgrid_wp_pagination(); ?>
 </div>
 <!-- /pagination -->
