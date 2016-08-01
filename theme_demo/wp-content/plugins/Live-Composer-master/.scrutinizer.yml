@@ -1,0 +1,43 @@
+checks:
+  php:
+    verify_argument_usable_as_reference: false
+    verify_property_names: false
+    no_global_keyword: false
+    psr2_class_declaration: false
+    avoid_superglobals: false
+    one_class_per_file: false
+    code_rating: true
+    coding_standard:
+        name: WordPress
+
+filter: {  }
+coding_style:
+    php:
+        indentation:
+            general:
+                use_tabs: true
+        spaces:
+            around_operators:
+                concatenation: true
+                negation: true
+            within:
+                brackets: true
+                grouping: true
+                function_call: true
+                function_declaration: true
+                if: true
+                for: true
+                while: true
+                switch: true
+                catch: true
+                type_cast: true
+
+tools:
+  sensiolabs_security_checker: true
+  # external_code_coverage: true
+  php_code_sniffer:
+      config:
+          # https://scrutinizer-ci.com/docs/tools/php/code-sniffer/standards
+          standard: "WordPress"
+
+
