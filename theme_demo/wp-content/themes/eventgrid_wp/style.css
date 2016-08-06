@@ -67,8 +67,15 @@ a:active {
 	outline: 0;
 }
 input:focus {
-	border: 1px solid #04a4cc;
 	outline: 0;
+}
+ul{
+	margin-left: 0 !important;
+}
+ul,
+li{
+	padding: 0;
+	margin: 0;
 }
 
 /*------------------------------------*\
@@ -83,8 +90,22 @@ input:focus {
 	max-width: 1280px;
 	margin: 0 auto;
 }
+.dslc-modules-section-wrapper, .dslca-add-modules-section{
+	width: 1200px !important;
+}
+.dslc-modules-section.dslc-full .dslc-modules-section-wrapper{
+	width: 100% !important;
+}
 /* header */
-
+.intro{
+	height: 100vh;
+	position: relative;
+}
+.intro-text{
+	/**position: absolute;
+	top: 50%;
+	transform: translateY(-50%);**/
+}
 /* logo */
 
 
@@ -98,14 +119,57 @@ input:focus {
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
-
+.tickets-header{
+	margin-top: 43px !important;
+}
+.tickets-footer .dslc-button{
+	padding-bottom: 30px !important;
+}
 
 /*------------------------------------*\
     FORMS
 \*------------------------------------*/
-.contact-form input{
-	width: 100%;
+.contact-form {
+	text-align: right;
 }
+
+.contact-form p{
+	margin: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	border: 1px solid white;
+	background: transparent;
+	padding: 20px 20px 15px;
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.contact-form textarea{
+	height: 130px;
+	resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	outline: 0;
+}
+
+.contact-form input[type="submit"]{
+	margin: 20px 0 0 0;
+	width: 165px;
+	font-size: 14px;
+	color: #FDC02F;
+	border: 2px solid #FDC02F;
+	border-radius: 25px;
+	text-align: center;
+	padding: 15px;
+}
+
 
 
 /*------------------------------------*\
@@ -117,7 +181,15 @@ input:focus {
 /*------------------------------------*\
 	TYPOGRAPHY
 \*------------------------------------*/
-
+h2{
+	color: #212B5B;
+	font-size: 28px !important;
+	line-height: 1.2 !important;
+}
+h5,
+h6{
+	margin: 0;
+}
 @font-face {
 	font-family: 'Proxima Black';
 	font-weight: normal;
@@ -163,17 +235,27 @@ p {
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (min-width:320px) {
+@media only screen and (max-width:320px) {
 }
-@media only screen and (min-width:480px) {
+@media only screen and (max-width:480px) {
 }
-@media only screen and (min-width:768px) {
+@media only screen and (max-width:768px) {
+	.events .dslc-3-col{
+		width: 50%;
+	}
+	.tickets .dslc-4-col {
+		width: 100%;
+	}
 }
-@media only screen and (min-width:1024px) {
+@media only screen and (max-width:1024px) {
+	.tickets h5,
+	.tickets h6{
+		margin: 0 !important
+	}
 }
-@media only screen and (min-width:1140px) {
+@media only screen and (max-width:1140px) {
 }
-@media only screen and (min-width:1280px) {
+@media only screen and (max-width:1280px) {
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 	   only screen and (min-resolution:144dpi) {
@@ -182,7 +264,13 @@ p {
 /*------------------------------------*\
     MISC
 \*------------------------------------*/
-
+#dslc-content .dslc-project-thumb a,
+#dslc-content .dslc-project-thumb img{
+	width: 100%;
+}
+#dslc-content .dslc-staff-member-thumb img{
+	margin: 0 auto;
+}
 ::selection {
 	color: #ffffff;
 	background: #04a4cc;
