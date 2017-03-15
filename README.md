@@ -1,7 +1,6 @@
 # EventGrid WordPress Conference Theme
-[![EventGrid][2]][1]
-  [1]: http://www.rogatnev.ru/works/eventgrid_wp/
-  [2]: screenshot.png (EventGrid screenshot)
+
+[![EventGrid](screenshot.png)](http://www.rogatnev.ru/works/eventgrid_wp/)
 
 ## Summary
 * High Resolution: No
